@@ -1,0 +1,170 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   max-width: 1100px;
+   margin: 0 auto;
+   
+}
+
+.container {
+   position: relative;
+   background-color: white;
+   
+   background: transparent;
+
+}
+.mainpic {
+   position: relative;
+   margin: auto;
+   display: block;
+   height: 400px;
+   
+   min-width: 1100px;
+   
+}
+
+#visit {
+   position: absolute;
+   color: rgba(0, 0, 0, 0.623);
+   bottom: 216px;
+   left: 400px;
+   width: 350px;
+   padding: 10px;
+   border-radius: 3px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 23px;
+   text-align: center;
+
+   /* text-shadow: 0px 0px 1px white; */
+
+}
+
+#visit p {
+   font-size: 15px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   color: white;
+   text-shadow: 0px 0px 6px wheat;
+}
+
+/* middle part of the website "top 3 activities.."*/
+
+.images {
+   height: 160px;
+   width: 160px;
+   border-radius: 50%;
+   cursor: pointer;
+   transition: transform, border-radius 0.3s ease-in-out;
+   
+}
+
+.images:hover {
+   transform: scale();
+   transition: transform border-radius0.04s ease-in-out;
+   border-radius: 2px;
+}
+
+.box {
+   max-width: 250px;
+
+   text-align: center;
+   margin: 8px;
+   padding: 10px 10px;
+   /* background: #44315fab; */
+   border-radius: 15px;
+   
+}
+.title {
+   text-align: center;
+   font-size: 12px;
+   padding-top: 40px;
+   padding-bottom: 0px;
+   color: rgba(0, 0, 0, 0.741);
+   background: #f2f7f1;
+   min-width: 1100px;
+}
+.box-container {
+   display: flex;
+   justify-content: space-between;
+   background: #f2f7f1;
+   min-width: 1100px;
+}
+
+.box h2 {
+   font-size: 18px;
+   padding: 20px 0;
+   padding-top: 40px;
+   color: rgb(72, 133, 202);
+   
+}
+
+.box p {
+   color: rgb(119, 119, 119);
+   line-height: 1.4;
+   letter-spacing: 1px;
+   font-size: 16px;
+}
+
+/* botton part of website */
+
+.guide {
+   height: 700px;
+}
+
+.guide-container {
+   height: 390px;
+   width: 600px;
+   background: rgba(87, 164, 187, 0.625);
+   border-radius: 6px;
+   
+   box-shadow: 0px 0px 7px rgba(66, 66, 66, 0.597);
+   transform: rotate(0deg);
+   
+
+   margin-left: 140px;
+   margin-top: 40px;
+
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+   transition: transform 0.7s ease-in-out;
+}
+
+.guide-container:hover {
+   transform: rotate(-1deg);
+   transition: transform 0.7s ease-in-out;
+   
+}
+
+.guide-container img {
+   height: 360px;
+   padding-top: 20px;
+   padding-left: 20px;
+}
+
+.text {
+   
+   text-align: center;
+   width: 200px;
+   margin-right: 50px;
+   line-height: 1.6;
+   letter-spacing: 1px;
+   padding-top: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text h3 {
+   padding:20px 0;
+   color: rgba(0, 0, 0, 0.537);
+   font-size: 22px;
+}
+
+.text p {
+   font-style: oblique;
+   font-size: 18px;
+   color: rgba(0, 0, 0, 0.537);
+}
